@@ -1,4 +1,4 @@
-/* RESET */
+/* -----RESET----- */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,14 +8,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* --------UTILITY-------- */
 .container{
     max-width: 1100px;
     margin: 0 auto;
 }
     
+/* ------SECTION------- */
 
-     /* HEADER */
+
+/* HEADER */
 header{
     background-color: #add8e7;
 }
@@ -52,8 +54,31 @@ flex-grow: 1;
     width: 600px;
     height: 200px;
     margin: auto;
+    border: 1px dashed black;
+}
+
+     /* MAIN */
+.main-segment{
+    padding: 20px;
+    display: flex;
+}
+
+.box-img{
+    background-color: #1e90ff;
+    width: 500px;
+    height: 250px;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+.box-text{
+    background-color: #ffc0ca;
+    width: 200px;
+    height: 250px;
+    flex-grow: 1;
+    border: 1px dashed black;
 }
 
 
-     /* MAIN */
+
+
      /* FOOTER */
